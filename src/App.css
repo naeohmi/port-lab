@@ -10,5 +10,8 @@ font-family: 'Barrio', cursive;
 }
 
 .About{
-	background-image: url('https://static.vecteezy.com/system/resources/previews/000/096/058/original/vector-bokeh-glitter-background-illustration.jpg');
+	background-image: url('http://download-wallpaper.net/images/background/background-0.jpg');
+	background-position: center;
+	
+	background-size: cover
 }

@@ -14,13 +14,12 @@ import Portfolio from './components/Portfolio.jsx';
 import Four_o_Four from './components/Four_o_Four.jsx';
 
 let Navi = () => {
-  return (
-    <nav>
-    <ul className="nav">
-          <li><Link to="/">Home</Link></li>
+
+  return (<ul>
+          <li><Link to="/home">Home</Link></li>
+
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-          <li><Link to="/404">404</Link></li> 
           <li><a href="http://www.google.com" target="_blank">Google (External Link)</a></li>
     </ul>
     </nav>
@@ -36,7 +35,7 @@ class App extends Component {
           <Route path="/" exact component={Home}></Route>
           <Route path="/aboutus" component={About}></Route>
           <Route path="/portfolio" component={Portfolio}></Route>
-          <Route path="/404" component={Four_o_Four}></Route>
+          <Route path="/*" component={Four_o_Four}></Route>
         </Switch>
      </div>
       </Router>

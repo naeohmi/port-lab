@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Projects from './Projects.jsx';
 
 class Portfolio extends Component {
     constructor(props) {
@@ -6,8 +7,8 @@ class Portfolio extends Component {
     }
     portfolio(){
         return (
-            <div>
-                
+            <div className="portfolio">
+                <Projects />
             </div>
         )
     }

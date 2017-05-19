@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+ h1{
+font-family: 'Barrio', cursive;
+}
+
+h2 {
+padding-bottom: 40px;
+color: red;
+font-family: 'Barrio', cursive;
+}
+
+.About{
+	background-image: url('https://static.vecteezy.com/system/resources/previews/000/096/058/original/vector-bokeh-glitter-background-illustration.jpg');
+}

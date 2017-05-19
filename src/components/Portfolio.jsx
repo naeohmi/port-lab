@@ -9,6 +9,7 @@ class Portfolio extends Component {
         return (
             <div className="portfolio">
                 <Projects />
+                
             </div>
         )
     }

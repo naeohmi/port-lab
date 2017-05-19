@@ -15,7 +15,7 @@ import Four_o_Four from './components/Four_o_Four.jsx';
 
 let Navi = () => {
   return (<ul>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/home">Home</Link></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/portfolio">Portfolio</NavLink></li>
           <li><a href="http://www.google.com" target="_blank">Google (External Link)</a></li>

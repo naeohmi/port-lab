@@ -34,7 +34,7 @@ class App extends Component {
       <Navi/>
         <Switch>
           <Route path="/" exact component={Home}></Route>
-          <Route path="/aboutus" component={About}></Route>
+          <Route path="/about" component={About}></Route>
           <Route path="/portfolio" component={Portfolio}></Route>
           <Route path="/*" component={Four_o_Four}></Route>
         </Switch>

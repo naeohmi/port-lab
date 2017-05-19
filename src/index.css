@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   background-image: url('./images/background.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -45,7 +46,7 @@ li {
 }
 
 li:hover {
-  background-color: #ef40be;
+  background-color: #c683b9;
 }
 
 a {

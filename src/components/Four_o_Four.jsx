@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../index.css';
 
-class Home extends Component {
+class Four_o_Four extends Component {
     constructor(props) {
         super(props);
     }
     home(){
         return (
             <div>
-                <h1>Welcome to our <span className="animated">Amazing</span> Portfolio!</h1>
+               <img src='https://media.giphy.com/media/BxWTWalKTUAdq/giphy.gif?response_id=591f184d5616461bc2a354a6” alt=“funny-gif' />
             </div>
         )
     }
@@ -18,4 +18,4 @@ class Home extends Component {
         )
     }
 }
-export default Home;
+export default Four_o_Four;

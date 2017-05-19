@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  Switch,
+  NavLink
 } from 'react-router-dom'
 
 import './App.css';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Portfolio from './components/Portfolio.jsx';
+import Four_o_Four from './components/Four_o_Four.jsx';
 
 let Navi = () => {
   return (<ul>

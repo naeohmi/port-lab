@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+
+h1 {
+	color: #ef40be;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+.animated {
+	animation-name: BigSmall;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes BigSmall {
+    0%   {
+    	font-size: 60px;
+    }
+    50% {
+    	font-size: 80px;
+    	color: #93106e;
+    }
 }
